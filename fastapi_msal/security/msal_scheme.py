@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, Union
 
 from fastapi import HTTPException, Request, status
 from fastapi.openapi.models import OAuth2 as OAuth2Model
