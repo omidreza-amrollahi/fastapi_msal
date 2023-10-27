@@ -29,11 +29,11 @@ As a result the pacage was built around simplicity and ease of use on the expens
 ## Installation
 
 ```shell
-pip install "fastapi_msal"
+pip install git+https://github.com/omidreza-amrollahi/fastapi_msal.git
 ```
 Or if you wish to have all the required packages straight forward
 ```shell
-pipenv install "fastapi_msal[full]"
+pip install git+https://github.com/omidreza-amrollahi/fastapi_msal.git#egg=fastapi_msal[full]
 ```
 
 ## Prerequisets
