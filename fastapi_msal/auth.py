@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, Union
 
 from fastapi import APIRouter, Form, Header
 from starlette.requests import Request
